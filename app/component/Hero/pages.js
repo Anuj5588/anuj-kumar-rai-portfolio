@@ -2,6 +2,7 @@ import React from 'react'
 import Rightsection from './rightSection/page'
 import Uppersection from './leftSection/upperSection/page';
 import Bottomsection from './leftSection/bottomSection/page';
+import BottomRsection from './rightSection/bottomSection/page';
 
 const Hero = () => {
   return (
@@ -15,8 +16,9 @@ const Hero = () => {
           <Rightsection />
         </div>
       </div>
-      <div>
+      <div className='flex justify-center gap-[100px] mt-[10%] '>
         <Bottomsection/>
+        <BottomRsection/>
       </div>
       </>
 

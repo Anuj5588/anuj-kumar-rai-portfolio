@@ -1,13 +1,14 @@
 import React from 'react'
-import Image from 'next/image'
 
-import home  from '@/public/image/home.svg';
+import Uppersection from '../rightSection/upperSection/page';
+
+
 
 
 const Rightsection = () => {
   return (
     <div>
-        <Image src={home} width={500} height={200} />
+        <Uppersection/>
     </div>
   )
 }
