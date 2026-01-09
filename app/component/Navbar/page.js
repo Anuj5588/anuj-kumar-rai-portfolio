@@ -15,14 +15,26 @@ const Navbar = () => {
     <div className='flex  gap-[70px] -mt-[30px]  ml-[40%]'>
       
      
-      {navItems.map((item, index) => (
-     <span key={index} className="inline-flex items-center gap-1 text-white text-[20px] font-mono">
-    <span><item.icon /></span>
+     {navItems.map((item, index) => (
+  <span
+    key={index}
+    className="group relative inline-flex items-center gap-1 text-white text-[20px] font-mono cursor-pointer"
+  >
+    <span className="text-[22px]">
+      <item.icon />
+    </span>
+
     <span>{item.label}</span>
+
+    {/* underline */}
+    <span
+      className="absolute -bottom-2 left-0 h-[3px] w-0 bg-purple-500 rounded-full 
+                 transition-all duration-300 group-hover:w-full
+                 shadow-[0_0_10px_rgba(168,85,247,0.9)]"
+    ></span>
   </span>
-  
-   
-   ))}
+))}
+
 
    <span className={`${styles.hello} flex justify-around items-center w-[8%] `}>
     <span className='text-[25px] font-mono text-white' ><CgGitFork/></span>
