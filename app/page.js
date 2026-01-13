@@ -5,6 +5,7 @@ import Rightsection from "./component/Hero/rightSection/page";
 import Hero from "./component/Hero/pages";
 import Contactsection from "./component/Footer/page";
 
+
 export default function Home() {
   return (
     <>

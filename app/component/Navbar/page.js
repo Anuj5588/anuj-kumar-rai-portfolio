@@ -5,6 +5,7 @@ import {
   AiFillStar,
 } from "react-icons/ai";
 import { CgGitFork } from "react-icons/cg";
+import Link from 'next/link';
 
 const Navbar = () => {
 
@@ -16,6 +17,9 @@ const Navbar = () => {
       
      
      {navItems.map((item, index) => (
+     
+      <Link href={item.path} key={index}>
+      <h1> {console.log(item.path)}</h1>
   <span
     key={index}
     className="group relative inline-flex items-center gap-1 text-white text-[20px] font-mono cursor-pointer"
@@ -33,6 +37,7 @@ const Navbar = () => {
                  shadow-[0_0_10px_rgba(168,85,247,0.9)]"
     ></span>
   </span>
+  </Link>
 ))}
 
 

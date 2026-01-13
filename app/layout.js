@@ -7,23 +7,21 @@ import Link from "next/link";
 
 
 export default function RootLayout({ children }) {
-
   return (
     <html lang="en">
-      <body
+      <body className="min-h-screen flex flex-col ">
         
-      >
-        <nav className="bg-white">
-          <Link href={`./component/about/page`}>About</Link>
-        </nav>
+        {/* Navbar */}
+        <Navbar />
 
-        <div>
-          <Navbar/>
-          
-        </div>
-        {children}
+        {/* Page Content */}
+        <main className="flex-grow">
+          {children}
+        </main>
 
-        <Footer/>
+        {/* Footer */}
+        <Footer />
+
       </body>
     </html>
   );
