@@ -5,11 +5,13 @@ import lpatop from '@/public/image/about.png'
 const About = () => {
   return (
    <>
-   <div className='flex justify-center items-center translate-[100px] '>
-  <div className="max-w-4xl  text-white font-mono">
+   <div className='flex justify-center items-center translate-y-[110px] scroll '>
+  <div className="max-w-3xl  text-white font-mono">
       <h2 className="text-4xl font-semibold mb-6 text-center">
         Know Who I'M
       </h2>
+
+      <div className='mt-4  h-[20px]'></div>
 
       <p className="text-lg leading-8 ">
         Hi everyone! I&apos;m <span className="text-purple-400 font-semibold">Anuj Kumar Rai</span>,
@@ -47,8 +49,8 @@ const About = () => {
       </p>
     </div>
 
-    <div >
-      <Image src={lpatop} width={400} height={500}/>
+    <div className='m'>
+      <Image src={lpatop} width={500} height={500}/>
     </div>
     </div>
 
