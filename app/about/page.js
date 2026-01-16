@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import lpatop from '@/public/image/about.png'
+import Techstack from './techStack'
 
 const About = () => {
   return (
@@ -55,7 +56,7 @@ const About = () => {
     </div>
 
 
-   
+   <div className='translate-y-[200px]'><Techstack/></div>
    </>
   )
 }
