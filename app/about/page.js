@@ -56,7 +56,7 @@ const About = () => {
     </div>
 
 
-   <div className='translate-y-[200px]'><Techstack/></div>
+   <div className='p-[200px]'><Techstack/></div>
    </>
   )
 }

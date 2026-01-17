@@ -28,36 +28,30 @@ import TypeScriptIcon from "@/public/image/TechIcons/Typescript.svg";
 import VSCodeIcon from "@/public/image/TechIcons/vscode.svg";
 
 export const techList = [
-  { icon: GoogleChromeIcon, label: "Google Chrome" },
-  { icon: VSCodeIcon, label: "VS Code" },
-  { icon: IntelliJIcon, label: "IntelliJ IDEA" },
-
-  { icon: AppleMacOSIcon, label: "MacOS" },
-  { icon: GitIcon, label: "Git" },
-  { icon: DockerIcon, label: "Docker" },
-  { icon: KubernetesIcon, label: "Kubernetes" },
-  { icon: AWSIcon, label: "AWS" },
-
-  { icon: JavaScriptIcon, label: "JavaScript" },
-  { icon: TypeScriptIcon, label: "TypeScript" },
+ 
+{ icon: JavaScriptIcon, label: "JavaScript" },
   { icon: ReactIcon, label: "React" },
   { icon: NextIcon, label: "Next.js" },
   { icon: NodeIcon, label: "Node.js" },
-  { icon: ReduxIcon, label: "Redux" },
-  { icon: TailwindIcon, label: "Tailwind CSS" },
+  { icon: GitIcon, label: "Git" },
+   { icon: TailwindIcon, label: "Tailwind CSS" },
+    
   { icon: MUIIcon, label: "MUI" },
-
   { icon: MongoIcon, label: "MongoDB" },
   { icon: RedisIcon, label: "Redis" },
   { icon: SQLIcon, label: "SQL" },
   { icon: FirebaseIcon, label: "Firebase" },
-
   { icon: JavaIcon, label: "Java" },
-  { icon: PythonIcon, label: "Python" },
-  { icon: CppIcon, label: "C++" },
-  { icon: GoIcon, label: "Go" },
-  { icon: HaskellIcon, label: "Haskell" },
-
-  { icon: KafkaIcon, label: "Kafka" },
   { icon: PostmanIcon, label: "Postman" },
+  { icon: DockerIcon, label: "Docker" },
+  { icon: AWSIcon, label: "AWS" },
+  
+
 ];
+
+
+export const tools= [
+   { icon: GoogleChromeIcon, label: "Google Chrome", key:'0'},
+  { icon: VSCodeIcon, label: "VS Code" ,key:'1' },
+  { icon: IntelliJIcon, label: "IntelliJ IDEA" ,key:'2'},
+]

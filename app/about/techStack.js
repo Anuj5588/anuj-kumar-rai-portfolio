@@ -1,14 +1,17 @@
 import React from 'react'
 import TechBadge from '../component/TechBadge/page.js'
-import { techList } from '@/public/jsonData/techStack.js'
+import { techList , tools} from '@/public/jsonData/techStack.js'
 
 
 
 
 const Techstack = () => {
   return (
-    <>  
+
+    <>
+     <div className='text-4xl text-white font-mono text-center font-bold'>Professional <span className='text-purple-500'>Skillset</span></div>  
          <div className="mt-10 flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
+         
         {techList.map((tech, index) => (
           <TechBadge
             key={index}
@@ -17,6 +20,21 @@ const Techstack = () => {
           />
         ))}
       </div>
+
+      <div className='text-4xl text-purple-500 font-mono text-center font-bold pt-[100px]'>Tools <span className='text-white'>I  use</span></div> 
+
+      <div className='max-w-6xl flex justify-center gap-6 mx-auto mt-10'>{
+        tools.map((tool,index)=>(
+          <>
+        
+          <TechBadge key={tool.key} icon={tool.icon} lable={tool.label}/>
+        
+           </>
+        ))
+       
+        }
+  
+        </div> 
 
   </>
   
