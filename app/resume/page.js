@@ -8,7 +8,7 @@ export default function ResumePage() {
         download
         className="mb-6 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-md font-medium transition"
       >
-        ⬇ Download CV
+        ⬇ Download Resume
       </a>
 
       {/* PDF Preview */}
@@ -26,7 +26,7 @@ export default function ResumePage() {
         download
         className="mt-10 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-md font-medium transition"
       >
-        ⬇ Download CV
+        ⬇ Download Resume
       </a>
 
     </div>
