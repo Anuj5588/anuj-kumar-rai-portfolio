@@ -42,8 +42,8 @@ const Uppersection
   return (
     <>
       {/* HERO SECTION */}
-      <section className=" flex flex-col justify-center">
-        <h6 className="text-white text-4xl">
+      <section className=" flex flex-col justify-center max-sm:bg-red-500 max-sm:items-center max-sm:">
+        <h6 className="text-white text-4xl ">
           Hi There!{" "}
           <span className="wave" role="img" aria-labelledby="wave">
             👋🏻

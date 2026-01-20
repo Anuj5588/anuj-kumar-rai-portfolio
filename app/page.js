@@ -9,9 +9,12 @@ import Contactsection from "./component/Footer/page";
 export default function Home() {
   return (
     <>
+    <div className="">
       <Particle />
       <Hero/>
       <Contactsection/>
+
+      </div>
      
     </>
   );
