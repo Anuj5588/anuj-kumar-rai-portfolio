@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-<div className='bg-[rgb(19,23,27)] px-[200px] flex justify-between  items-center h-[50px] max-md:hidden'>
+<div className='bg-[rgb(19,23,27)] px-[200px] flex justify-between  items-center h-[50px]'>
 
     <div className=''>Designed and Developed by Anuj Kumar Rai</div>
   

@@ -22,17 +22,10 @@
 
 body {
   margin: 0;
-
+  iframe::-webkit-scrollbar { display: none; }
   font-family: "PT Mono", monospace !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- background-color: #171126;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
 }
 
