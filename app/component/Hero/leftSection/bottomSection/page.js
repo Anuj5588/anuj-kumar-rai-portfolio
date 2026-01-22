@@ -4,15 +4,15 @@ const Bottomsection = () => {
   return (
  <>
   {/* INTRO SECTION */}
-  <section className="min-h-screen">
+  <section className="">
     
     {/* Heading */}
-    <div className=" translate-x-[150px] font-medium text-4xl text-white mb-6">
+    <div className=" translate-x-[150px] max-md:translate-x-[0px] max-md:text-center  max-sm:text-2xl font-medium text-4xl text-white mb-6">
       LET ME INTRODUCE MYSELF
     </div>
 
     {/* Paragraph */}
-    <div className="text-xl text-white max-w-4xl leading-relaxed">
+    <div className="text-xl min-h-[400px] text-white max-w-4xl max-md:px-4 leading-relaxed">
       I’m a Software Engineer who loves transforming ideas into reliable,
       scalable products. Over time, I’ve explored several technologies and
       found my passion in building high-performance systems and intuitive

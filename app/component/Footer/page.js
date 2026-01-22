@@ -12,14 +12,14 @@ import Link from 'next/link';
 const Contactsection = () => {
   return (
     <>
-    <div className='-translate-y-[130px] flex flex-col items-center'>
+    <div className='my-8 flex flex-col  items-center max-md:-translate-y-[0px]  '>
       <div className='text-white text-4xl font-monoPT'>
         Find Me On
       </div>
-      <div className='text-white text-2xl'>Feel free to <span className='text-purple-700'>connect</span> with me.</div>
+      <div className='text-white text-2xl max-sm:px-2 max-md:flex-wrap'>Feel free to <span className='text-purple-700'>connect</span> with me.</div>
     </div>
 
-      <div className="flex gap-6 -translate-y-[100px] justify-center">
+      <div className="flex gap-6  justify-center max-md:-translate-y-[0px] my-8">
       {/* GitHub */}
       <Link href={`https://github.com/Anuj5588`} target='blank'><div className="w-10 h-10 bg-white rounded-full flex items-center justify-center
                       hover:scale-110 transition duration-300 cursor-pointer">

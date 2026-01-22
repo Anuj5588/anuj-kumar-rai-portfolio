@@ -42,20 +42,20 @@ const Uppersection
   return (
     <>
       {/* HERO SECTION */}
-      <section className=" flex flex-col justify-center">
-        <h6 className="text-white text-4xl">
+      <section className=" flex flex-col justify-center max-md:min-w-[200px] max-sm:text-center">
+        <h6 className="text-white text-4xl max-md:text-2xl ">
           Hi There!{" "}
-          <span className="wave" role="img" aria-labelledby="wave">
+          <span className="wave max-md:text-3xl" role="img" aria-labelledby="wave">
             👋🏻
           </span>
         </h6>
 
-        <div className="text-white text-4xl py-4">
+        <div className="text-white text-4xl max-md:text-2xl py-4">
           I'M <span className="text-amber-400">Anuj Kumar Rai</span>
         </div>
 
-        <div className="pt-14">
-          <span className="text-purple-400 font-semibold text-3xl">
+        <div className="pt-14  max-sm:whitespace-nowrap">
+          <span className="text-purple-400 font-semibold text-3xl max-sm:text-2xl">
             {text}
             <span className="animate-pulse">|</span>
           </span>
