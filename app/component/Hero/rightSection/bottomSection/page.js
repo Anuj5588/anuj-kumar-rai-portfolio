@@ -6,7 +6,7 @@ import avatar from '@/public/image/avatar.svg'
 
 const BottomRsection = () => {
   return (
-    <div className=''>
+    <div className='max-lg: mt-[10%]'>
         <Image src={avatar} width={200} height={200}/>
     </div>
   )

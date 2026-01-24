@@ -16,7 +16,7 @@ const Contactsection = () => {
       <div className='text-white text-4xl font-monoPT'>
         Find Me On
       </div>
-      <div className='text-white text-2xl max-sm:px-2 max-md:flex-wrap'>Feel free to <span className='text-purple-700'>connect</span> with me.</div>
+      <div className='text-white text-l max-sm:px-2 max-md:flex-wrap'>Feel free to <span className='text-purple-700'>connect</span> with me.</div>
     </div>
 
       <div className="flex gap-6  justify-center max-md:-translate-y-[0px] my-8">

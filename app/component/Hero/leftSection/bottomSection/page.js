@@ -4,10 +4,10 @@ const Bottomsection = () => {
   return (
  <>
   {/* INTRO SECTION */}
-  <section className="">
+  <section className=" max-lg: mt-[10%] flex flex-col flex-wrap">
     
     {/* Heading */}
-    <div className=" translate-x-[150px] max-md:translate-x-[0px] max-md:text-center  max-sm:text-2xl font-medium text-4xl text-white mb-6">
+    <div className=" translate-x-[150px]  max-md:translate-x-[0px] max-md:ml-[10%]  max-sm:text-2xl font-medium text-4xl text-white mb-6">
       LET ME INTRODUCE MYSELF
     </div>
 

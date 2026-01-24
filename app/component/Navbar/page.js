@@ -11,16 +11,16 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <div className="  max-md:bg-[#15171F] relative">
-        <span className="text-[#623686] text-[30px] flex mt-4 max-md:mt-0 gap-4 font-extrabold text-2xl ml-[12%] font-mono ">
+      <div className="   max-md:bg-[#15171F]   relative">
+        <div className="text-[#623686]  text-[30px] flex mt-4 max-md:mt-0 gap-4 font-extrabold text-2xl mx-[10%] font-mono ">
           Ak .
-        </span>
-        <div className="flex  gap-[70px] -mt-[30px] max-md:hidden ml-[40%]">
+        </div>
+        <div className="flex min-w-[60%] gap-[50px] -mt-[30px] max-md:hidden justify-center ml-[30%] ">
           {navItems.map((item, index) => (
             <Link href={item.path} key={index}>
               <span
                 key={index}
-                className="group relative inline-flex items-center gap-1 text-white text-[20px] font-mono cursor-pointer"
+                className="group flex flex-wrap relative items-center gap-1 text-white text-[20px] font-mono cursor-pointer"
               >
                 <span className="text-[22px]">
                   <item.icon />
@@ -39,7 +39,7 @@ const Navbar = () => {
           ))}
 
           <span
-            className={`${styles.hello} flex justify-around items-center w-[8%] `}
+            className={`${styles.hello} flex justify-around items-center flex-wrap  w-[8%] mr-[10%] `}
           >
             <span className="text-[25px] font-mono text-white">
               <CgGitFork />
