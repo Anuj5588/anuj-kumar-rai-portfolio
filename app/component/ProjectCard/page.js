@@ -6,7 +6,7 @@ const ProjectCard = ({img, head, link, text}) => {
  
   return (
     <>
-    <div className='h-[70vh] flex flex-col max-w-[350px] justify-evenly  items-center border border-purple-400/70 rounded-2xl cursor-pointer transition-all duration-300 ease-out  hover:scale-105 hover:shadow-[0_0_22px_rgba(168,85,247,0.6)] p-4'>
+    <div className='h-[70vh] flex flex-col max-sm:min-w-2xs max-w-xs justify-evenly items-center border border-purple-400/70 rounded-2xl cursor-pointer transition-all duration-300 ease-out  hover:scale-105 hover:shadow-[0_0_22px_rgba(168,85,247,0.6)] p-4 max-sm:mr-2'>
         <div className=''>
             <Image src={img} width={300} height={300}/>
         </div>

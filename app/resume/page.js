@@ -12,7 +12,7 @@ export default function ResumePage() {
       </a>
 
       {/* PDF Preview */}
-      <div className="w-full max-w-6xl h-[95vh] bg-white overflow-hidden rounded-lg ">
+      <div className="w-full max-w-6xl h-[95vh]  rounded-lg ">
         <iframe 
       
           src="/resume/akr.pdf#toolbar=0&navpanes=0&scrollbar=0"

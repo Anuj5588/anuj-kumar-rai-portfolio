@@ -6,7 +6,7 @@ import Techstack from './techStack'
 const About = () => {
   return (
    <>
-   <div className='flex justify-center items-center translate-y-[110px] scroll '>
+   <div className='flex justify-center items-center translate-y-[110px] scroll max-lg:flex-col   px-10'>
   <div className="max-w-3xl  text-white font-mono">
       <h2 className="text-4xl font-semibold mb-6 text-center">
         Know Who I'M
@@ -14,12 +14,12 @@ const About = () => {
 
       <div className='mt-4  h-[20px]'></div>
 
-      <p className="text-lg leading-8 ">
+      <p className="text-l  leading-8 ">
         Hi everyone! I&apos;m <span className="text-purple-400 font-semibold">Anuj Kumar Rai</span>,
         a passionate <span className="text-purple-400">Full-Stack Developer</span> from India.
       </p>
 
-      <p className="text-lg leading-8 ">
+      <p className="text-lg leading-8 max-md">
         I have hands-on experience working as a <span className="text-purple-400">Full Stack & DevOps Engineer</span>,
         where I built scalable web applications using
         <span className="text-purple-400"> React.js, Next.js, Node.js</span>, and cloud platforms
@@ -56,7 +56,7 @@ const About = () => {
     </div>
 
 
-   <div className='p-[200px]'><Techstack/></div>
+   <div className='py-[200px]'><Techstack/></div>
    </>
   )
 }

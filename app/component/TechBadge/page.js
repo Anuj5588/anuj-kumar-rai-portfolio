@@ -4,8 +4,10 @@ const TechBadge = ({ icon, lable }) => {
   return (
     <div
       className="
-        inline-flex items-center gap-3
-        px-6 py-2
+        flex justify-center items-center gap-3
+       p-2
+        min-w-[150px]
+        text-center
         rounded-full
         border border-purple-400/70
         bg-[#120a1f]
