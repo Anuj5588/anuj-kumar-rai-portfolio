@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectCard from '../component/ProjectCard/page'
+import ProjectCard from '@/component/ProjectCard/page'
 
 import { projectData } from '@/public/jsonData/projectData'
 

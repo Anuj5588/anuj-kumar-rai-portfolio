@@ -1,5 +1,5 @@
 import React from 'react'
-import TechBadge from '../component/TechBadge/page.js'
+import TechBadge from '@/component/TechBadge/page.js'
 import { techList , tools} from '@/public/jsonData/techStack.js'
 
 
