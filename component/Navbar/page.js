@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`fixed top-0 z-1 w-full py-3 transition-all duration-300
+      className={`fixed top-0 z-1 w-full py-3 transition-all duration-300 md:
         ${
           scrolled
             ? " shadow-[0_4px_30px_rgba(0,0,0,0.5)]"
@@ -96,7 +96,7 @@ const Navbar = () => {
                   <span className="text-[22px]">
                     <item.icon />
                   </span>
-                  <span>{item.label}</span>
+                  <span  onClick={() => setOpen(!open)}>{item.label}</span>
                 </span>
               </Link>
             </li>

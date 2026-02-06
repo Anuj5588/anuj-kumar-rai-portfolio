@@ -6,7 +6,7 @@ export default function ResumePage() {
       <a
         href="/resume/akr.pdf"
         download
-        className="mb-6 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-md font-medium transition"
+        className="mb-6 bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 max-w-[200px] rounded-md font-medium transition max-md:mt-[100px]"
       >
         ⬇ Download Resume
       </a>
